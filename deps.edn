@@ -1,6 +1,8 @@
 {:paths   ["src/main" "resources"]
  :deps    {org.clojure/clojure    {:mvn/version "1.10.3"}
-           com.fulcrologic/fulcro {:mvn/version "3.5.9"}}
+           com.fulcrologic/fulcro {:mvn/version "3.5.9"}
+           com.datomic/datomic-pro     {:mvn/version "1.0.6610"}}
+
 
  :aliases {:dev {:extra-paths ["src/dev"]
                  :extra-deps  {org.clojure/clojurescript   {:mvn/version "1.10.914"}
